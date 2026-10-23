@@ -48,6 +48,7 @@
   <a class="nav__brand" href="#topo" aria-label="Barbaros, início"><span class="skull skull--nav"></span><span class="nav__word">Barbaros</span></a>
   <nav class="nav__links" aria-label="Seções">
     <a href="#cortes">Cortes</a>
+    <a href="#cadeira">Na cadeira</a>
     <a href="#servicos">Serviços</a>
     <a href="#casa">A casa</a>
     <a href="#visita">Visita</a>
@@ -59,8 +60,8 @@
 
   <section class="hero">
     <div class="hero__copy">
-      <p class="eyebrow">Vila Amorim · Americana/SP</p>
-      <h1 class="hero__title"><span class="reveal">Corte</span> <span class="reveal">de</span> <span class="reveal hero__gold">respeito.</span></h1>
+      <p class="eyebrow reveal">Vila Amorim · Americana/SP</p>
+      <h1 class="hero__title"><span class="line"><span class="reveal">Corte</span></span> <span class="line"><span class="reveal">de</span></span> <span class="line"><span class="reveal hero__gold">respeito.</span></span></h1>
       <p class="hero__lead reveal">Degradê na régua, desenho na navalha e barba alinhada. Sem pressa, sem enrolação, do jeito que você pediu.</p>
       <div class="hero__cta reveal">
         <a class="btn" href="https://api.whatsapp.com/send?phone=5519989860968&text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar no WhatsApp <span aria-hidden="true">→</span></a>
@@ -73,8 +74,9 @@
       </dl>
     </div>
     <figure class="hero__media">
-      <img src="img/corte-degrade.webp" alt="Cliente com degradê e topete finalizado na Barbaros" width="1100" height="1375" fetchpriority="high">
-      <figcaption>Degradê + topete</figcaption>
+      <video src="video/degrade.mp4" poster="img/poster-degrade.jpg" autoplay muted loop playsinline aria-label="Degradê sendo feito na máquina"></video>
+      <figcaption><i class="rec"></i>Degradê na régua</figcaption>
+      <span class="hero__corner hero__corner--tl"></span><span class="hero__corner hero__corner--br"></span>
     </figure>
   </section>
 
@@ -86,79 +88,115 @@
   </div>
 
   <section class="cortes" id="cortes">
-    <header class="sec-head">
+    <header class="sec-head reveal">
       <p class="eyebrow">01 · Cortes</p>
       <h2>Saiu da cadeira assim.</h2>
-      <p class="sec-head__note">Fotos reais da casa, direto do nosso Instagram.</p>
+      <p class="sec-head__note">Fotos reais da casa, direto do nosso Instagram. Nada de banco de imagem.</p>
     </header>
     <div class="grid">
-      <figure class="g g--tall"><img src="img/corte-desenho.webp" alt="Degradê com desenho feito na navalha" loading="lazy"><figcaption>Desenho na navalha</figcaption></figure>
-      <figure class="g"><img src="img/corte-social.webp" alt="Corte social com volume penteado para trás" loading="lazy"><figcaption>Social</figcaption></figure>
-      <figure class="g"><img src="img/corte-risco.webp" alt="Degradê baixo com risco lateral" loading="lazy"><figcaption>Degradê com risco</figcaption></figure>
-      <figure class="g g--tall"><img src="img/corte-cacheado.webp" alt="Cabelo cacheado com laterais degradê" loading="lazy"><figcaption>Cacheado + degradê</figcaption></figure>
-      <figure class="g"><img src="img/corte-platinado.webp" alt="Cabelo platinado com degradê e risco" loading="lazy"><figcaption>Platinado</figcaption></figure>
-      <figure class="g"><img src="img/corte-textura.webp" alt="Corte texturizado com franja" loading="lazy"><figcaption>Textura</figcaption></figure>
-      <figure class="g g--wide"><img src="img/corte-topete.webp" alt="Topete com laterais baixas" loading="lazy"><figcaption>Topete</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-degrade.webp" alt="Degradê alto com topete" loading="lazy"><figcaption><b>01</b>Degradê</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-desenho.webp" alt="Degradê com desenho feito na navalha" loading="lazy"><figcaption><b>02</b>Desenho</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-social.webp" alt="Corte social com volume penteado para trás" loading="lazy"><figcaption><b>03</b>Social</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-risco.webp" alt="Degradê baixo com risco lateral" loading="lazy"><figcaption><b>04</b>Risco</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-cacheado.webp" alt="Cabelo cacheado com laterais degradê" loading="lazy"><figcaption><b>05</b>Cacheado</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-platinado.webp" alt="Cabelo platinado com degradê e risco" loading="lazy"><figcaption><b>06</b>Platinado</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-textura.webp" alt="Corte texturizado com franja" loading="lazy"><figcaption><b>07</b>Textura</figcaption></figure>
+      <figure class="g reveal"><img src="img/corte-topete.webp" alt="Topete com laterais baixas" loading="lazy"><figcaption><b>08</b>Topete</figcaption></figure>
     </div>
     <a class="link link--center" href="https://www.instagram.com/barbarosbarbearia_oficial/" target="_blank" rel="noopener">Mais no @barbarosbarbearia_oficial</a>
   </section>
 
+  <section class="cadeira" id="cadeira">
+    <header class="sec-head reveal">
+      <p class="eyebrow">02 · Na cadeira</p>
+      <h2>Do primeiro passe ao acabamento.</h2>
+    </header>
+    <div class="cadeira__wrap">
+      <figure class="clip reveal">
+        <video src="video/maquina.mp4" poster="img/poster-maquina.jpg" muted loop playsinline preload="none" data-auto aria-label="Degradê infantil sendo feito"></video>
+        <figcaption><i class="rec"></i>Degradê infantil</figcaption>
+      </figure>
+      <ol class="steps">
+        <li class="reveal"><b>01</b><div><h3>Conversa</h3><p>Você mostra a foto, a gente diz o que fica bom no seu formato de rosto.</p></div></li>
+        <li class="reveal"><b>02</b><div><h3>Máquina e tesoura</h3><p>Base limpa, degradê subindo na régua, pente por pente.</p></div></li>
+        <li class="reveal"><b>03</b><div><h3>Navalha</h3><p>Pezinho, contorno e desenho fechados na lâmina.</p></div></li>
+        <li class="reveal"><b>04</b><div><h3>Finalização</h3><p>Lavagem, pomada e espelho. Só levanta quando ficou do jeito certo.</p></div></li>
+      </ol>
+      <figure class="clip reveal">
+        <video src="video/platinado.mp4" poster="img/poster-platinado.jpg" muted loop playsinline preload="none" data-auto aria-label="Platinado sendo aplicado com pincel"></video>
+        <figcaption><i class="rec"></i>Platinado</figcaption>
+      </figure>
+    </div>
+  </section>
+
   <section class="servicos" id="servicos">
-    <header class="sec-head">
-      <p class="eyebrow">02 · Serviços</p>
+    <header class="sec-head reveal">
+      <p class="eyebrow">03 · Serviços</p>
       <h2>A tabela.</h2>
+      <p class="sec-head__note">Pagamento em Pix, cartão ou dinheiro.</p>
     </header>
     <ul class="menu">
-      <li><span class="menu__n">Corte</span><span class="menu__d">Máquina e tesoura, lavagem e finalização</span><span class="menu__p">R$ 40</span></li>
-      <li><span class="menu__n">Degradê navalhado</span><span class="menu__d">Fade na régua com acabamento na navalha</span><span class="menu__p">R$ 45</span></li>
-      <li><span class="menu__n">Barba</span><span class="menu__d">Toalha quente, navalha e óleo</span><span class="menu__p">R$ 35</span></li>
-      <li><span class="menu__n">Corte + barba</span><span class="menu__d">O combo completo</span><span class="menu__p">R$ 70</span></li>
-      <li><span class="menu__n">Desenho / risco</span><span class="menu__d">Adicional no corte</span><span class="menu__p">R$ 10</span></li>
-      <li><span class="menu__n">Sobrancelha</span><span class="menu__d">Na navalha ou pinça</span><span class="menu__p">R$ 15</span></li>
-      <li><span class="menu__n">Platinado / luzes</span><span class="menu__d">Descoloração e matização</span><span class="menu__p">sob consulta</span></li>
-      <li><span class="menu__n">Infantil</span><span class="menu__d">Até 12 anos</span><span class="menu__p">R$ 35</span></li>
+      <li class="reveal"><span class="menu__n">Corte</span><span class="menu__dots"></span><span class="menu__p">R$ 40</span><span class="menu__d">Máquina e tesoura, lavagem e finalização</span></li>
+      <li class="reveal"><span class="menu__n">Degradê navalhado</span><span class="menu__dots"></span><span class="menu__p">R$ 45</span><span class="menu__d">Fade na régua com acabamento na navalha</span></li>
+      <li class="reveal"><span class="menu__n">Barba</span><span class="menu__dots"></span><span class="menu__p">R$ 35</span><span class="menu__d">Toalha quente, navalha e óleo</span></li>
+      <li class="reveal menu__hot"><span class="menu__n">Corte + barba</span><span class="menu__dots"></span><span class="menu__p">R$ 70</span><span class="menu__d">O combo completo, o mais pedido</span></li>
+      <li class="reveal"><span class="menu__n">Desenho / risco</span><span class="menu__dots"></span><span class="menu__p">+ R$ 10</span><span class="menu__d">Adicional no corte</span></li>
+      <li class="reveal"><span class="menu__n">Sobrancelha</span><span class="menu__dots"></span><span class="menu__p">R$ 15</span><span class="menu__d">Na navalha ou pinça</span></li>
+      <li class="reveal"><span class="menu__n">Platinado / luzes</span><span class="menu__dots"></span><span class="menu__p">consulte</span><span class="menu__d">Descoloração e matização</span></li>
+      <li class="reveal"><span class="menu__n">Infantil</span><span class="menu__dots"></span><span class="menu__p">R$ 35</span><span class="menu__d">Até 12 anos</span></li>
     </ul>
   </section>
 
   <section class="casa" id="casa">
-    <figure class="casa__img casa__img--a"><img src="img/espaco.webp" alt="Salão da Barbaros com mesa de sinuca" loading="lazy"></figure>
-    <div class="casa__copy">
-      <p class="eyebrow">03 · A casa</p>
-      <h2>Tem sinuca, tem papo, tem café.</h2>
-      <p>A Barbaros é barbearia de bairro do jeito certo: você chega, joga uma partida enquanto espera e sai com o corte que pediu. Comandada por <a href="https://www.instagram.com/adrianoolliveiira/" target="_blank" rel="noopener">@adrianoolliveiira</a>.</p>
+    <div class="casa__copy reveal">
+      <p class="eyebrow">04 · A casa</p>
+      <h2>Chega, joga uma sinuca e senta na cadeira.</h2>
+      <p>A Barbaros é barbearia de bairro do jeito certo: espaço amplo, mesa de sinuca na espera e papo bom. Comandada por <a href="https://www.instagram.com/adrianoolliveiira/" target="_blank" rel="noopener">@adrianoolliveiira</a>.</p>
       <ul class="casa__list">
         <li>Hora marcada pelo WhatsApp</li>
         <li>Mesa de sinuca na espera</li>
         <li>Atendimento infantil</li>
       </ul>
     </div>
-    <figure class="casa__img casa__img--b"><img src="img/fachada.webp" alt="Fachada da Barbaros com a logo da caveira" loading="lazy"></figure>
+    <figure class="casa__img reveal"><img src="img/espaco.webp" alt="Salão da Barbaros com mesa de sinuca" loading="lazy"></figure>
+    <figure class="tour reveal">
+      <video id="tour" src="video/tour.mp4" poster="img/poster-tour.jpg" playsinline preload="none"></video>
+      <button class="tour__play" id="tourPlay" type="button" aria-label="Assistir o tour pela barbearia com som">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg>
+      </button>
+      <figcaption>Tour pela casa · com som</figcaption>
+    </figure>
   </section>
 
   <section class="visita" id="visita">
-    <div class="visita__copy">
-      <p class="eyebrow">04 · Visita</p>
+    <div class="visita__copy reveal">
+      <p class="eyebrow">05 · Visita</p>
       <h2>Rua Emílio de Menezes, 213</h2>
       <p class="visita__addr">Vila Amorim, Americana/SP</p>
       <table class="hours">
-        <tr><th>Domingo e segunda</th><td>Fechado</td></tr>
-        <tr><th>Terça a sexta</th><td>9h às 19h</td></tr>
-        <tr><th>Sábado</th><td>8h às 17h</td></tr>
+        <tr data-d="0,1"><th>Domingo e segunda</th><td>Fechado</td></tr>
+        <tr data-d="2,3,4,5"><th>Terça a sexta</th><td>9h às 19h</td></tr>
+        <tr data-d="6"><th>Sábado</th><td>8h às 17h</td></tr>
       </table>
       <div class="hero__cta">
         <a class="btn" href="https://api.whatsapp.com/send?phone=5519989860968&text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar no WhatsApp <span aria-hidden="true">→</span></a>
         <a class="link" href="https://www.google.com/maps/search/?api=1&query=Rua+Em%C3%ADlio+de+Menezes+213+Vila+Amorim+Americana+SP" target="_blank" rel="noopener">Abrir no Maps</a>
       </div>
     </div>
-    <div class="visita__map">
+    <div class="visita__map reveal">
       <iframe title="Mapa da Barbaros Barbearia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Rua+Em%C3%ADlio+de+Menezes+213+Vila+Amorim+Americana+SP&output=embed"></iframe>
     </div>
+  </section>
+
+  <section class="final">
+    <span class="skull skull--final reveal"></span>
+    <h2 class="reveal">Senta que é<br><span class="hero__gold">a sua vez.</span></h2>
+    <a class="btn btn--lg reveal" href="https://api.whatsapp.com/send?phone=5519989860968&text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Agendar meu horário <span aria-hidden="true">→</span></a>
   </section>
 
 </main>
 
 <footer class="foot">
-  <span class="skull skull--foot"></span>
   <p class="foot__word">Barbaros</p>
   <p class="foot__meta">Barbearia · Americana/SP · <a href="https://www.instagram.com/barbarosbarbearia_oficial/" target="_blank" rel="noopener">Instagram</a> · <a href="https://api.whatsapp.com/send?phone=5519989860968" target="_blank" rel="noopener">(19) 98986-0968</a></p>
   <p class="foot__by">Site por <a href="https://hgsdevv-hash.github.io/hgsdevv-portfolio/" target="_blank" rel="noopener">HGS Dev</a></p>
