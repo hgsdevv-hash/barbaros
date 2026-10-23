@@ -194,6 +194,7 @@ section{padding:clamp(80px,11vw,150px) var(--pad)}
 .foot{padding:64px var(--pad) 40px;border-top:1px solid var(--line);text-align:center}
 .foot__word{font:400 clamp(56px,14vw,200px)/.9 var(--slab);text-transform:uppercase;color:#1c1915}
 .foot__meta{margin-top:24px;color:var(--mute);font-size:14px}
+.foot__meta a{white-space:nowrap}
 .foot__by{margin-top:10px;color:#6a625a;font-size:12px}
 
 .fab{position:fixed;right:18px;bottom:18px;z-index:40;width:56px;height:56px;display:grid;place-items:center;background:var(--gold);color:#120f0a;border-radius:50%;box-shadow:0 8px 24px rgba(0,0,0,.5);transition:transform .2s var(--ease)}
@@ -210,8 +211,10 @@ section{padding:clamp(80px,11vw,150px) var(--pad)}
 @media (max-width:900px){
   .nav__links{display:none}
   .nav .btn--sm{margin-left:auto}
-  .hero{grid-template-columns:1fr;padding-top:92px;gap:32px}
-  .hero__media{order:-1;aspect-ratio:1/1;max-height:none;width:calc(100% - 12px);justify-self:center}
+  .hero{grid-template-columns:minmax(0,1fr);padding-top:92px;gap:32px}
+  .hero__title{font-size:clamp(44px,14.5vw,120px)}
+  .hero__media{order:-1;aspect-ratio:1/1;max-height:none;width:100%}
+  .hero__corner{display:none}
   .sec-head{grid-template-columns:1fr}
   .grid{grid-template-columns:repeat(2,1fr);gap:8px}
   .menu{grid-template-columns:1fr}
@@ -222,6 +225,7 @@ section{padding:clamp(80px,11vw,150px) var(--pad)}
   .hero__facts div:last-child{grid-column:1/-1}
   .cadeira__wrap,.casa{gap:12px}
   .menu__hot .menu__n::after{display:none}
+  .tour figcaption{padding:32px 12px 12px;letter-spacing:.1em}
 }
 
 @media (prefers-reduced-motion:reduce){
